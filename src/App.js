@@ -14,7 +14,7 @@ import Slider from './Demo';
 
 // https://mantine.dev/core/app-shell/
 // https://mantine.dev/core/slider/
-export default function AppShellDemo() {
+export default function AppSceleton() {
   const theme = useMantineTheme();
   const [opened, setOpened] = useState(false);
   return (
@@ -56,7 +56,7 @@ export default function AppShellDemo() {
       }
     >
       <Text>Resize app to see responsive navbar in action</Text>
-      <Slider/>
+    
     </AppShell>
   );
 }
