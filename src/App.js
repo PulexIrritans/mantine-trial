@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import MyFooter from './Components/MyFooter';
 import {
   AppShell,
   Navbar,
@@ -9,8 +10,6 @@ import {
   Burger,
   useMantineTheme,
 } from '@mantine/core';
-import Slider from './Demo';
-
 
 // https://mantine.dev/core/app-shell/
 // https://mantine.dev/core/slider/
@@ -33,9 +32,7 @@ export default function AppSceleton() {
         </Navbar>
       }
       footer={
-        <Footer height={60} p="md">
-          Application footer
-        </Footer>
+       <MyFooter/>
       }
       header={
         <Header height={70} p="md">
